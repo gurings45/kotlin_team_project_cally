@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <PreferenceCategory
+        android:id="@+id/category"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:title="설정"
+        app:iconSpaceReserved="false">
+        <ListPreference
+            android:id="@+id/font_size"
+            android:defaultValue="2"
+            android:entries="@array/font_size"
+            android:entryValues="@array/font_size"
+            android:key="font_size"
+            android:summary="폰트크기를 설정합니다"
+            android:title="폰트크기"
+            app:defaultValue="false"
+            app:iconSpaceReserved="false">
+
+        </ListPreference>
+
+        <ListPreference
+            android:id="@+id/theme_color"
+            android:defaultValue="2"
+            android:entries="@array/theme_color"
+            android:entryValues="@array/theme_color"
+            android:key="theme_color"
+            android:summary="테마를 설정합니다"
+            android:title="테마 설정"
+            app:defaultValue="false"
+            app:iconSpaceReserved="false">
+        </ListPreference>
+
+        <EditTextPreference
+            android:key="find_friend"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="친구 찾기"
+            android:summary="ID로 친구찾기"
+            app:iconSpaceReserved="false" />
+
+        <Preference
+            android:title="로그아웃"
+            app:iconSpaceReserved="false" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

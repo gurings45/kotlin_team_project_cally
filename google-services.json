@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1067668746454",
+    "project_id": "cally-c6d78",
+    "storage_bucket": "cally-c6d78.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1067668746454:android:2c293436b8de018fd81977",
+        "android_client_info": {
+          "package_name": "com.example.cally"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1067668746454-3nv9esf5l35rauvbidkb5jdnmrj4l21h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cally",
+            "certificate_hash": "e26323ae3c222b9b77280486dafe341815f8e562"
+          }
+        },
+        {
+          "client_id": "1067668746454-53uqd5uuqqlhht1nt7k0af24v882r2b3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcCOAgE8rrHfvPNe32B_qMRe799PF8snk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1067668746454-53uqd5uuqqlhht1nt7k0af24v882r2b3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
